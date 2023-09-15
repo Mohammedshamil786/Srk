@@ -1,0 +1,65 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    margin-top: 100px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: font-size 1s;
+
+}
+a:hover{
+    font-size: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    padding: 50px;
+}
+#Home{
+    background: rgb(14,218,27);
+    background: linear-gradient(90deg, rgba(14,218,27,1) 0%, rgba(6,169,167,1) 100%);
+
+}
+#About{
+    background: rgb(14,218,27);
+    background: linear-gradient(90deg, rgba(14,218,27,1) 0%, rgba(6,169,167,1) 100%);
+
+}
+#Video{
+    background: rgb(14,218,27);
+    background: linear-gradient(90deg, rgba(14,218,27,1) 0%, rgba(6,169,167,1) 100%);
+
+}
+#Writings{
+    background: rgb(14,218,27);
+    background: linear-gradient(90deg, rgba(14,218,27,1) 0%, rgba(6,169,167,1) 100%);
+
+}
+#Contact{
+    background: rgb(14,218,27);
+    background: linear-gradient(90deg, rgba(14,218,27,1) 0%, rgba(6,169,167,1) 100%);
+
+}
